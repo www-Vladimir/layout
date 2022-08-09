@@ -175,6 +175,9 @@ h6 {
 .header__time {
   font-size: calc(10px + 4 * ((100vw - 320px) / 880));
 }
+.header__burger-btn {
+  display: none;
+}
 @media (max-width: 768.98px) {
   .header__burger-btn {
     width: 30px;
